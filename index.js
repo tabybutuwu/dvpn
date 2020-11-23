@@ -39,7 +39,7 @@ const sleep = function(milliseconds) {
   }
 
 //Login
-bot.login(botsettings.token)
+bot.login(process.env.token)
 
 //Status
 bot.on("ready", function() {
