@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* A font by Jos Buivenga (exljbris) -> www.exljbris.com */
+@font-face {
+  font-family: 'FontinSmallCaps';
+  font-weight: normal;
+  font-style: normal;
+  src: local("☺"), url('../fonts/fontin-smallcaps-webfont.woff') format("woff"); }
+
+@font-face {
+  font-family: 'FontinRegular';
+  font-weight: normal;
+  font-style: normal;
+  src: local("☺"), url('../fonts/fontin-regular-webfont.woff') format("woff"); }
+
+@font-face {
+  font-family: 'FontinItalic';
+  font-weight: normal;
+  font-style: normal;
+  src: local("☺"), url('../fonts/fontin-italic-webfont.woff') format("woff"); }
+
+@font-face {
+  font-family: 'FontinBold';
+  font-weight: normal;
+  font-style: normal;
+  src: local("☺"), url('../fonts/fontin-bold-webfont.woff') format("woff"); }
+
+@font-face {
+  font-family: 'Cinzel';
+  font-weight: normal;
+  font-style: normal;
+  src: local("Cinzel-Regular"), url('../fonts/Cinzel-Regular.woff') format("woff"); }
+
+@font-face {
+  font-family: 'FrizQuadrataC';
+  font-weight: normal;
+  font-style: normal;
+  src: local("☺"), url('../fonts/FrizQuadrataC.woff') format("woff"); }
+
+@font-face {
+  font-family: 'Daehan';
+  font-weight: normal;
+  font-style: normal;
+  src: local("☺"), url('../fonts/Daehan.woff') format("woff"); }
