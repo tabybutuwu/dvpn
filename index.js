@@ -66,7 +66,8 @@ bot.on("message", async message => {
           .setColor(embedColour)
           .setTitle("DVPN's commands")
           //.setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
-            .addField('I know nothing', 'Coming soon', true)
+            .addField('ping', 'PONG', true)
+            .addField('scrape', 'returns an html file when specified a url')
           .setTimestamp()  
         message.channel.send(embed)
     }
