@@ -87,7 +87,7 @@ bot.on("message", async message => {
             removeDir('./scraped-page')
             let options = {
                 urls: [args[1]],
-                directory: './scraped-page',
+                directory: './scraped-page2',
             };
             message.channel.send('Downloading...')
             scrape(options).then((result) => {
