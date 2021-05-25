@@ -84,6 +84,7 @@ bot.on("message", async message => {
             message.channel.send("Incorrect command usage: `-scrape <url>`")
         }
         else{
+            removeDir('./scraped-page')
             let options = {
                 urls: [args[1]],
                 directory: './scraped-page',
@@ -100,7 +101,6 @@ bot.on("message", async message => {
             }).catch((err) => {
                 message.channel.send("An error ocurred", err);
             });
-            removeDir('./scraped-page')
         }
     }
 });
