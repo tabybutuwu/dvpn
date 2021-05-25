@@ -43,7 +43,7 @@ bot.login(process.env.token)
 
 //Status
 bot.on("ready", function() {
-    bot.user.setActivity("something I shouldn't be", { type: "WATCHING", url: "https://www.youtube.com/watch?v=HIPQQ4qnl6Q" })
+    bot.user.setActivity("something I shouldn't be", { type: "STREAMING", url: "https://www.youtube.com/watch?v=HIPQQ4qnl6Q" })
     console.log(`${bot.user.tag} is active`);
 });
 
