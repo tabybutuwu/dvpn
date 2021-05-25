@@ -94,7 +94,7 @@ bot.on("message", async message => {
                 message.channel.send("Website succesfully downloaded.");
                 message.channel.send({
                     files: [{
-                        attachment: './scraped-page/index.html',
+                        attachment: './scraped-page2/index.html',
                         name: 'index.html'
                     }]
                 })
