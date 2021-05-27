@@ -84,7 +84,7 @@ bot.on("message", async message => {
             message.channel.send("Incorrect command usage: `-scrape <url>`")
         }
         else{
-            removeDir('./scraped-page')
+            removeDir('./scraped-page2')
             let options = {
                 urls: [args[1]],
                 directory: './scraped-page2',
